@@ -1,0 +1,42 @@
+{
+    "name": "lilac-theme",
+    "displayName": "Lilac Theme",
+    "description": "A Lilac inspired VS Code theme",
+    "version": "1.0.2",
+    "publisher": "christopherkade",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "scripts": {
+        "publish": "vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/christopherkade/lilac-vscode-theme"
+    },
+    "galleryBanner": {
+        "color": "#14111F",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "lilac-icon.jpg",
+    "keywords": [
+        "Theme",
+        "Dark theme",
+        "Lilac theme",
+        "Lilac",
+        "Purple"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lilac",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Lilac-color-theme.json"
+            }
+        ]
+    }
+}
